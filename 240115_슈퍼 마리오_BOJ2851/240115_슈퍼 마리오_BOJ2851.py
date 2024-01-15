@@ -1,4 +1,4 @@
-# 240115_
+# 240115_슈퍼 마리오
 
 import sys
 sys.stdin=open('input.txt')
