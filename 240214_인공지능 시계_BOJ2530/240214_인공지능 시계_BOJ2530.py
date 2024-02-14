@@ -1,3 +1,4 @@
+# 인공지능 시계_BOJ2530
 import sys
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
