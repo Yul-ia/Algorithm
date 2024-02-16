@@ -1,3 +1,5 @@
+# 알파벳 개수 _BOJ10808
+
 import sys
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
