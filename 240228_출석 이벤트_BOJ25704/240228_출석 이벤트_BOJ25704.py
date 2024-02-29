@@ -16,8 +16,12 @@ if n >= 5:
             pay.append(price-2000)
             if n >= 20:
                 pay.append(int(price*0.75))
+else:
+    pay.append(price)
+
 for i in pay:
-    if i < 0: # 할인금액이 더 크면 0원
+    if i <= 0: # i는 할인 된 금액.할인금액이 더 크면 0원
         print(0)
+        quit()
 else:
     print(min(pay))
